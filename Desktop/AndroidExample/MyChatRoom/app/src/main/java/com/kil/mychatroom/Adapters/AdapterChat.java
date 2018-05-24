@@ -41,7 +41,7 @@ public class AdapterChat extends RecyclerView.Adapter<RecyclerView.ViewHolder>{
             case VIEW_TYPE_OTHER:
                 View viewChatOther = layoutInflater.inflate(R.layout.item_chat_other, parent, false);
                 viewHolder = new OtherChatViewHolder(viewChatOther);
-                break;
+                break; 
         }
         return viewHolder;
     }
