@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout   xmlns:android="http://schemas.android.com/apk/res/android">
+
+<data class="UserListBinding">
+    <variable
+        name="ListUser"
+        type="com.kil.mychatroom.ModelView.UserListModel"/>
+
+</data>
+
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_user_email"
+        android:textSize="21sp"
+        android:padding="10dp"
+        android:text="@{ListUser.email}"
+        />
+
+</android.support.constraint.ConstraintLayout>
+</layout>

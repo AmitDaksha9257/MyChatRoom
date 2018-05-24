@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "123333503305",
+    "firebase_url": "https://mychatappexample.firebaseio.com",
+    "project_id": "mychatappexample",
+    "storage_bucket": "mychatappexample.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123333503305:android:cd54e26b0685b229",
+        "android_client_info": {
+          "package_name": "com.kil.mychatroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123333503305-1j0p9tlff4mf58d9ech6ej97m0mkjstu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1zAoOc0okExqSo_ERcXaRIUX5Has5uvE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
